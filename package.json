@@ -10,10 +10,13 @@
     "./installer": "./lib/installer.js",
     "./patcher": "./lib/patcher.js",
     "./cordis.patch.yml": "./cordis.patch.yml",
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./client": "./client.js",
+    "./client.js": "./client.js"
   },
   "files": [
     "index.js",
+    "client.js",
     "lib",
     "prompts",
     "skills",
@@ -23,7 +26,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "check": "node --check index.js && node --check lib/router.js && node --check lib/installer.js && node --check lib/patcher.js",
+    "check": "node --check index.js && node --check lib/router.js && node --check lib/installer.js && node --check lib/patcher.js && node --check client.js",
     "test": "node tests/smoke.test.js && node tests/load.test.js && node tests/patcher.test.js"
   },
   "license": "MIT",
@@ -48,6 +51,10 @@
     "permissions": "系统提示词注入, 用户技能目录写入, 宿主安装目录改写（仅 deep 档）",
     "bundle": {
       "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
     }
   },
   "peerDependencies": {

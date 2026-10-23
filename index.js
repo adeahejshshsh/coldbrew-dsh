@@ -287,6 +287,128 @@ function service(ctx, key) {
   }
 }
 
+// ---- 设置页后端 ----
+// GET  /coldbrew/config  → 当前配置 + 可选档位
+// POST /coldbrew/config  → 写 $DSH_HOME/coldbrew.json
+function configPath(env = process.env) {
+  return path.join(dshHome(env), 'coldbrew.json');
+}
+
+function readRawConfig(env = process.env) {
+  return readConfigFile(env);
+}
+
+function writeRawConfig(patch, env = process.env) {
+  const file = configPath(env);
+  const cur = readRawConfig(env);
+  const next = { ...cur, ...patch };
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  const tmp = `${file}.${Date.now()}.tmp`;
+  fs.writeFileSync(tmp, JSON.stringify(next, null, 2) + '\n');
+  fs.renameSync(tmp, file);
+  return { file, config: next };
+}
+
+const TIER_INFO = {
+  lite: {
+    label: '轻档',
+    tagline: '只加不删',
+    desc: '只往 systemPrompt 追加执行核，不动宿主人格。旧人格还在，新人格排后面。',
+    scope: '本插件 section',
+    revert: '删包即可',
+    risk: '低',
+  },
+  mid: {
+    label: '中档',
+    tagline: '推荐',
+    desc: '在 assembly 层摘掉出厂人格（harness:identity + deployment:persona-prefix），执行核成为唯一人格。不写任何宿主文件。',
+    scope: '整个 profile',
+    revert: '删包即可',
+    risk: '中',
+  },
+  deep: {
+    label: '重档',
+    tagline: '最深',
+    desc: '同中档，另加直接改 DSH 安装目录里写死的默认提示词。连没装插件的会话也吃这套；升级后需重打。',
+    scope: '整台机器所有 profile',
+    revert: '需 restore',
+    risk: '高',
+  },
+};
+
+function sendJson(res, status, payload) {
+  res.writeHead(status, { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' });
+  res.end(JSON.stringify(payload));
+}
+
+async function readBody(req, limit = 64 * 1024) {
+  const chunks = [];
+  let size = 0;
+  for await (const c of req) {
+    const b = Buffer.isBuffer(c) ? c : Buffer.from(c);
+    size += b.length;
+    if (size > limit) throw new Error('body too large');
+    chunks.push(b);
+  }
+  const raw = Buffer.concat(chunks).toString('utf8').trim();
+  return raw ? JSON.parse(raw) : {};
+}
+
+function installHttp(ctx, cfg) {
+  if (typeof ctx.inject !== 'function') return;
+  try {
+    ctx.inject(['webServer'], (host) => {
+      host.effect(() =>
+        host.webServer.register({
+          kind: 'exact',
+          path: '/coldbrew/config',
+          handler: async (req, res) => {
+            try {
+              if (req.method === 'GET') {
+                const file = readRawConfig();
+                const cur = resolveConfig({ tier: cfg.tier }, process.env);
+                sendJson(res, 200, {
+                  ok: true,
+                  tier: cur.tier,
+                  source: cur.source,
+                  filterFactoryPersona: cur.filterFactoryPersona,
+                  file: configPath(),
+                  raw: file,
+                  tiers: TIER_INFO,
+                  host: (() => {
+                    const root = patcher.findDshRoot();
+                    if (!root) return { root: null, patched: [], rows: [] };
+                    const ins = patcher.inspect(root);
+                    return { root, patched: patcher.status().patched, rows: ins.rows.map((r) => ({ id: r.id, status: r.status, rel: r.rel })) };
+                  })(),
+                });
+                return;
+              }
+              if (req.method === 'POST') {
+                const body = await readBody(req);
+                const next = String(body.tier || '').toLowerCase();
+                if (!TIERS.includes(next)) {
+                  sendJson(res, 400, { ok: false, error: `tier 必须是 ${TIERS.join(' / ')}` });
+                  return;
+                }
+                const saved = writeRawConfig({ tier: next });
+                sendJson(res, 200, { ok: true, tier: next, file: saved.file, restart: true });
+                return;
+              }
+              res.writeHead(405, { allow: 'GET, POST' });
+              res.end();
+            } catch (e) {
+              sendJson(res, 500, { ok: false, error: String(e?.message || e) });
+            }
+          },
+        }, 'coldbrew-dsh: config'),
+      );
+    });
+  } catch (e) {
+    console.warn('[coldbrew-dsh] webServer route failed:', String(e?.message || e));
+  }
+}
+
 // 从 assembly 里摘掉出厂人格。返回新对象，不改原 assembly。
 function stripFactoryPersona(assembly) {
   if (!assembly || !Array.isArray(assembly.sections)) return assembly;
@@ -354,7 +476,10 @@ export function apply(ctx, config = {}) {
     );
   }
 
-  // 6) 技能落盘
+  // 6) 设置页用的 HTTP 接口
+  installHttp(ctx, cfg);
+
+  // 7) 技能落盘
   if (cfg.autoInstallSkills) {
     try {
       const r = installer.install();
