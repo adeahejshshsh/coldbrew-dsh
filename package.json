@@ -33,12 +33,17 @@
   "keywords": [
     "dsh",
     "dsh-plugin",
+    "dsh-plugins",
     "deepseek-harness",
+    "harness",
+    "plugin",
     "jailbreak",
     "prompt",
     "skills",
     "router",
-    "tier"
+    "tier",
+    "red-team",
+    "instructions"
   ],
   "repository": {
     "type": "git",
@@ -54,7 +59,19 @@
     },
     "client": {
       "platform": "web",
-      "immediately": true
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    },
+    "install": {
+      "preferred": "tarball",
+      "tarball": "https://github.com/adeahejshshsh/coldbrew-dsh/archive/refs/heads/main.tar.gz",
+      "zip": "https://github.com/adeahejshshsh/coldbrew-dsh/archive/refs/heads/main.zip",
+      "git": "https://github.com/adeahejshshsh/coldbrew-dsh.git"
     }
   },
   "peerDependencies": {
@@ -67,5 +84,8 @@
   "homepage": "https://github.com/adeahejshshsh/coldbrew-dsh#readme",
   "bugs": {
     "url": "https://github.com/adeahejshshsh/coldbrew-dsh/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
