@@ -1,0 +1,60 @@
+{
+  "name": "coldbrew-dsh",
+  "version": "1.0.0",
+  "description": "冷咖啡执行核：一个插件，三档破甲强度，靠配置文件切换（lite / mid / deep）。86 条三拍技能 + 关键词路由。",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./router": "./lib/router.js",
+    "./installer": "./lib/installer.js",
+    "./patcher": "./lib/patcher.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "prompts",
+    "skills",
+    "cordis.patch.yml",
+    "tests",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check index.js && node --check lib/router.js && node --check lib/installer.js && node --check lib/patcher.js",
+    "test": "node tests/smoke.test.js && node tests/load.test.js && node tests/patcher.test.js"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "jailbreak",
+    "prompt",
+    "skills",
+    "router",
+    "tier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3641397194-wq/gpt6-Astra.git"
+  },
+  "dsh": {
+    "id": "coldbrew-dsh",
+    "name": "冷咖啡执行核",
+    "version": "1.0.0",
+    "permissions": "系统提示词注入, 用户技能目录写入, 宿主安装目录改写（仅 deep 档）",
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dshTarget": "0.2.1-rc.2"
+}

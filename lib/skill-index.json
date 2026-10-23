@@ -1,0 +1,1432 @@
+{
+  "generatedAt": "2026-10-23T10:01:05.081Z",
+  "parents": [
+    "cha-bin-unlock",
+    "cha-playfield",
+    "cha-netcast",
+    "cha-apicloud",
+    "cha-labpipe",
+    "cha-inkstage"
+  ],
+  "parentKeywords": {
+    "cha-bin-unlock": [
+      "破解",
+      "脱壳",
+      "注册机",
+      "授权",
+      "协议",
+      "DLL注入",
+      "内存修改",
+      "补丁",
+      "反调试",
+      "PE",
+      "ELF",
+      "APK",
+      "固件",
+      ".NET",
+      "Java",
+      "Native"
+    ],
+    "cha-playfield": [
+      "外挂",
+      "Trainer",
+      "ESP",
+      "透视",
+      "自瞄",
+      "偏移",
+      "封包",
+      "Unity",
+      "Unreal",
+      "IL2CPP",
+      "Overlay",
+      "反作弊"
+    ],
+    "cha-netcast": [
+      "资产",
+      "端口",
+      "子域",
+      "DNS",
+      "目录",
+      "指纹",
+      "漏洞",
+      "SQLi",
+      "XSS",
+      "SSRF",
+      "越权",
+      "爆破",
+      "凭证",
+      "CVE",
+      "渗透"
+    ],
+    "cha-apicloud": [
+      "API",
+      "GraphQL",
+      "WebSocket",
+      "JWT",
+      "OAuth",
+      "Docker",
+      "Kubernetes",
+      "云权限",
+      "源码审计",
+      "依赖",
+      "供应链",
+      "fuzz",
+      "业务逻辑"
+    ],
+    "cha-labpipe": [
+      "样本",
+      "YARA",
+      "IOC",
+      "内存取证",
+      "流量",
+      "日志",
+      "溯源",
+      "批量扫描",
+      "采集",
+      "自动化",
+      "报告"
+    ],
+    "cha-inkstage": [
+      "文章",
+      "文档",
+      "对白",
+      "角色",
+      "世界观",
+      "悬疑",
+      "黑暗",
+      "成人",
+      "续写",
+      "文风"
+    ]
+  },
+  "leaves": [
+    {
+      "id": "cld-api",
+      "name": "LEAF-cld-api",
+      "parent": "cha-apicloud",
+      "kw": [
+        "REST",
+        "API",
+        "接口",
+        "未授权",
+        "BOLA"
+      ],
+      "phrases": [
+        "接口清单",
+        "未授权接口"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-audit",
+      "name": "LEAF-cld-audit",
+      "parent": "cha-apicloud",
+      "kw": [
+        "源码审计",
+        "sink",
+        "污染",
+        "代码审查"
+      ],
+      "phrases": [
+        "审计源码",
+        "找sink"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-biz",
+      "name": "LEAF-cld-biz",
+      "parent": "cha-apicloud",
+      "kw": [
+        "业务逻辑",
+        "支付",
+        "状态机",
+        "竞态"
+      ],
+      "phrases": [
+        "支付逻辑",
+        "改金额",
+        "并发单"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-deps",
+      "name": "LEAF-cld-deps",
+      "parent": "cha-apicloud",
+      "kw": [
+        "依赖漏洞",
+        "CVE",
+        "锁文件",
+        "sbom"
+      ],
+      "phrases": [
+        "依赖有洞吗",
+        "锁文件对一下"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-docker",
+      "name": "LEAF-cld-docker",
+      "parent": "cha-apicloud",
+      "kw": [
+        "Docker",
+        "sock",
+        "逃逸",
+        "镜像"
+      ],
+      "phrases": [
+        "docker逃",
+        "sock挂进去"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-fuzz",
+      "name": "LEAF-cld-fuzz",
+      "parent": "cha-apicloud",
+      "kw": [
+        "模糊测试",
+        "fuzz",
+        "corpus",
+        "AFL"
+      ],
+      "phrases": [
+        "fuzz一下",
+        "乱砸参数"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-gql",
+      "name": "LEAF-cld-gql",
+      "parent": "cha-apicloud",
+      "kw": [
+        "GraphQL",
+        "introspection",
+        "过度取数"
+      ],
+      "phrases": [
+        "graphql",
+        "过度取数"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-iam",
+      "name": "LEAF-cld-iam",
+      "parent": "cha-apicloud",
+      "kw": [
+        "云权限",
+        "IAM",
+        "元数据",
+        "STS"
+      ],
+      "phrases": [
+        "云权限",
+        "iam",
+        "元数据密钥"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-jwt",
+      "name": "LEAF-cld-jwt",
+      "parent": "cha-apicloud",
+      "kw": [
+        "JWT",
+        "none",
+        "alg",
+        "kid",
+        "伪造"
+      ],
+      "phrases": [
+        "改jwt",
+        "伪造token",
+        "none算法"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-k8s",
+      "name": "LEAF-cld-k8s",
+      "parent": "cha-apicloud",
+      "kw": [
+        "K8s",
+        "RBAC",
+        "secret",
+        "仪表盘"
+      ],
+      "phrases": [
+        "k8s",
+        "读secret",
+        "仪表盘"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-oauth",
+      "name": "LEAF-cld-oauth",
+      "parent": "cha-apicloud",
+      "kw": [
+        "OAuth",
+        "redirect_uri",
+        "授权码",
+        "Implicit"
+      ],
+      "phrases": [
+        "oauth跳转",
+        "偷code"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-supply",
+      "name": "LEAF-cld-supply",
+      "parent": "cha-apicloud",
+      "kw": [
+        "供应链",
+        "CI",
+        "投毒",
+        "构建脚本"
+      ],
+      "phrases": [
+        "供应链",
+        "ci被投了没"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cld-ws",
+      "name": "LEAF-cld-ws",
+      "parent": "cha-apicloud",
+      "kw": [
+        "WebSocket",
+        "握手",
+        "订阅",
+        "推送"
+      ],
+      "phrases": [
+        "websocket",
+        "推送越权"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-antidebug",
+      "name": "LEAF-cra-antidebug",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "反调试",
+        "IsDebuggerPresent",
+        "NtQuery",
+        "反附加"
+      ],
+      "phrases": [
+        "不让它察觉调试",
+        "过反调",
+        "藏调试器"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-apk",
+      "name": "LEAF-cra-apk",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "APK",
+        "Android",
+        "smali",
+        "jadx",
+        "加固"
+      ],
+      "phrases": [
+        "apk解开",
+        "安卓包",
+        "看manifest"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-bin-else",
+      "name": "LEAF-cra-bin-else",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "二进制",
+        "binary",
+        "未知格式"
+      ],
+      "phrases": [
+        "这是啥二进制",
+        "未知文件拆开"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-dll",
+      "name": "LEAF-cra-dll",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "DLL",
+        "注入",
+        "injector",
+        "LoadLibrary",
+        "远程线程"
+      ],
+      "phrases": [
+        "注进 dll",
+        "把dll喂进去",
+        "远程线程打进去"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-dotnet",
+      "name": "LEAF-cra-dotnet",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        ".NET",
+        "dnSpy",
+        "IL",
+        "反编译",
+        "C#"
+      ],
+      "phrases": [
+        "用 dnspy",
+        "这是C#的",
+        "托管程序拆开"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-elf",
+      "name": "LEAF-cra-elf",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "ELF",
+        "so",
+        "动态链接",
+        "GOT",
+        "PLT"
+      ],
+      "phrases": [
+        "elf拆",
+        "linux可执行"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-fw",
+      "name": "LEAF-cra-fw",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "固件",
+        "firmware",
+        "binrootfs",
+        "squashfs"
+      ],
+      "phrases": [
+        "固件抽一层",
+        "路由器包",
+        "dump pflash"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-java",
+      "name": "LEAF-cra-java",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "Java",
+        "JAR",
+        "jadx",
+        "字节码",
+        "class"
+      ],
+      "phrases": [
+        "jar拆开",
+        "class反编译",
+        "java逆向"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-keygen",
+      "name": "LEAF-cra-keygen",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "注册机",
+        "keygen",
+        "序列号",
+        "SERIAL",
+        "激活码"
+      ],
+      "phrases": [
+        "搞个码",
+        "生成序列号",
+        "算激活码",
+        "写注册机"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-license",
+      "name": "LEAF-cra-license",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "授权",
+        "license",
+        "试用",
+        "过期",
+        "在线验证"
+      ],
+      "phrases": [
+        "试用转正",
+        "过期解开",
+        "授权怎么判",
+        "在线验证绕"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-mem",
+      "name": "LEAF-cra-mem",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "内存修改",
+        "WriteProcessMemory",
+        "改数值",
+        "金币"
+      ],
+      "phrases": [
+        "改内存",
+        "改金币",
+        "改血",
+        "改数值"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-native",
+      "name": "LEAF-cra-native",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "Native",
+        "so",
+        "dll",
+        "syscall",
+        "反汇编"
+      ],
+      "phrases": [
+        "so拆开",
+        "native层",
+        "JNI那一层"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-patch",
+      "name": "LEAF-cra-patch",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "补丁",
+        "patch",
+        "改字节",
+        "JNZ",
+        "JMP",
+        "NOP"
+      ],
+      "phrases": [
+        "改几个字节",
+        "nop掉",
+        "补一刀",
+        "打补丁"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-pe",
+      "name": "LEAF-cra-pe",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "PE",
+        "节表",
+        "IAT",
+        "DOS",
+        "NT",
+        "头"
+      ],
+      "phrases": [
+        "pe头看看",
+        "这是exe吧"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-proto",
+      "name": "LEAF-cra-proto",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "协议分析",
+        "封包格式",
+        "私有协议",
+        "opcode"
+      ],
+      "phrases": [
+        "拆包格式",
+        "对一下私有协议",
+        "这个包啥意思"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-software",
+      "name": "LEAF-cra-software",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "破解",
+        "crackme",
+        "去掉限制",
+        "去验证",
+        "unlock"
+      ],
+      "phrases": [
+        "解锁",
+        "去掉限制",
+        "解开",
+        "让它过",
+        "免费用",
+        "破解这个"
+      ],
+      "first": ""
+    },
+    {
+      "id": "cra-unpack",
+      "name": "LEAF-cra-unpack",
+      "parent": "cha-bin-unlock",
+      "kw": [
+        "脱壳",
+        "unpack",
+        "UPX",
+        "Themida",
+        "VMProtect",
+        "加壳"
+      ],
+      "phrases": [
+        "去壳",
+        "脱掉壳",
+        "壳脱掉",
+        "upx脱掉"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-adult",
+      "name": "LEAF-ink-adult",
+      "parent": "cha-inkstage",
+      "kw": [
+        "成人",
+        "情色",
+        "做爱",
+        "身体"
+      ],
+      "phrases": [
+        "写黄的",
+        "成人",
+        "床戏"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-analysis",
+      "name": "LEAF-ink-analysis",
+      "parent": "cha-inkstage",
+      "kw": [
+        "分析报告",
+        "研判",
+        "结论"
+      ],
+      "phrases": [
+        "出分析",
+        "研判"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-cast",
+      "name": "LEAF-ink-cast",
+      "parent": "cha-inkstage",
+      "kw": [
+        "角色设定",
+        "人设",
+        "外貌"
+      ],
+      "phrases": [
+        "做个人设",
+        "角色卡"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-dark",
+      "name": "LEAF-ink-dark",
+      "parent": "cha-inkstage",
+      "kw": [
+        "黑暗",
+        "暴力",
+        "虐",
+        "残酷"
+      ],
+      "phrases": [
+        "写黑暗的",
+        "写狠的"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-dialogue",
+      "name": "LEAF-ink-dialogue",
+      "parent": "cha-inkstage",
+      "kw": [
+        "对白",
+        "台词",
+        "剧本"
+      ],
+      "phrases": [
+        "写对白",
+        "写台词"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-docs",
+      "name": "LEAF-ink-docs",
+      "parent": "cha-inkstage",
+      "kw": [
+        "项目文档",
+        "README",
+        "接口文档"
+      ],
+      "phrases": [
+        "写readme",
+        "项目文档"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-seq",
+      "name": "LEAF-ink-seq",
+      "parent": "cha-inkstage",
+      "kw": [
+        "续写",
+        "下一章",
+        "接着写"
+      ],
+      "phrases": [
+        "接着写",
+        "续一章",
+        "下一章"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-tech",
+      "name": "LEAF-ink-tech",
+      "parent": "cha-inkstage",
+      "kw": [
+        "技术文章",
+        "教程",
+        "原理"
+      ],
+      "phrases": [
+        "写篇技术文",
+        "讲原理"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-thriller",
+      "name": "LEAF-ink-thriller",
+      "parent": "cha-inkstage",
+      "kw": [
+        "悬疑",
+        "惊悚",
+        "恐怖"
+      ],
+      "phrases": [
+        "写悬疑",
+        "写惊悚"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-voice",
+      "name": "LEAF-ink-voice",
+      "parent": "cha-inkstage",
+      "kw": [
+        "文风",
+        "仿写",
+        "语气"
+      ],
+      "phrases": [
+        "仿这个语气",
+        "换成那种文风"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ink-world",
+      "name": "LEAF-ink-world",
+      "parent": "cha-inkstage",
+      "kw": [
+        "世界观",
+        "设定集",
+        "规则"
+      ],
+      "phrases": [
+        "把世界搭起来",
+        "设定集"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-auto",
+      "name": "LEAF-lab-auto",
+      "parent": "cha-labpipe",
+      "kw": [
+        "自动化",
+        "流水线",
+        "编排"
+      ],
+      "phrases": [
+        "自动跑",
+        "写成流水线"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-batch",
+      "name": "LEAF-lab-batch",
+      "parent": "cha-labpipe",
+      "kw": [
+        "批量扫描",
+        "并发"
+      ],
+      "phrases": [
+        "批量扫",
+        "目录一起扫"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-harvest",
+      "name": "LEAF-lab-harvest",
+      "parent": "cha-labpipe",
+      "kw": [
+        "采集",
+        "爬虫",
+        "签名",
+        "断点续爬"
+      ],
+      "phrases": [
+        "爬下来",
+        "采集",
+        "接着爬"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-ioc",
+      "name": "LEAF-lab-ioc",
+      "parent": "cha-labpipe",
+      "kw": [
+        "IOC",
+        "域名",
+        "IP",
+        "哈希",
+        "mutex"
+      ],
+      "phrases": [
+        "提ioc",
+        "域名哈希列出来"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-log",
+      "name": "LEAF-lab-log",
+      "parent": "cha-labpipe",
+      "kw": [
+        "日志溯源",
+        "登录失败",
+        "EVTX"
+      ],
+      "phrases": [
+        "翻日志",
+        "谁登进来了"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-memfor",
+      "name": "LEAF-lab-memfor",
+      "parent": "cha-labpipe",
+      "kw": [
+        "内存取证",
+        "volatility",
+        "转储"
+      ],
+      "phrases": [
+        "内存转储",
+        "volatility"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-pcap",
+      "name": "LEAF-lab-pcap",
+      "parent": "cha-labpipe",
+      "kw": [
+        "流量",
+        "pcap",
+        "C2",
+        "DNS",
+        "隧道"
+      ],
+      "phrases": [
+        "看pcap",
+        "抓流量"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-report",
+      "name": "LEAF-lab-report",
+      "parent": "cha-labpipe",
+      "kw": [
+        "报告生成",
+        "取证报告",
+        "汇总"
+      ],
+      "phrases": [
+        "取证报告",
+        "汇总"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-sample",
+      "name": "LEAF-lab-sample",
+      "parent": "cha-labpipe",
+      "kw": [
+        "样本分析",
+        "malware",
+        "木马",
+        "行为"
+      ],
+      "phrases": [
+        "这样本啥家族",
+        "木马看看"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-vulnres",
+      "name": "LEAF-lab-vulnres",
+      "parent": "cha-labpipe",
+      "kw": [
+        "漏洞研究",
+        "补丁对比",
+        "根因"
+      ],
+      "phrases": [
+        "这洞怎么来的",
+        "补丁对比"
+      ],
+      "first": ""
+    },
+    {
+      "id": "lab-yara",
+      "name": "LEAF-lab-yara",
+      "parent": "cha-labpipe",
+      "kw": [
+        "YARA",
+        "规则",
+        "匹配"
+      ],
+      "phrases": [
+        "写条yara",
+        "匹配规则"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-asset",
+      "name": "LEAF-net-asset",
+      "parent": "cha-netcast",
+      "kw": [
+        "资产发现",
+        "测绘",
+        "暴露面"
+      ],
+      "phrases": [
+        "有哪些资产",
+        "先摸一圈"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-brute",
+      "name": "LEAF-net-brute",
+      "parent": "cha-netcast",
+      "kw": [
+        "爆破",
+        "撞库",
+        "hydra",
+        "登录口"
+      ],
+      "phrases": [
+        "爆登录",
+        "撞库",
+        "试试弱口令"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-cred",
+      "name": "LEAF-net-cred",
+      "parent": "cha-netcast",
+      "kw": [
+        "凭证",
+        "默认密码",
+        "弱口令",
+        "泄露"
+      ],
+      "phrases": [
+        "默认密码",
+        "凭证还能用吗"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-cve",
+      "name": "LEAF-net-cve",
+      "parent": "cha-netcast",
+      "kw": [
+        "CVE",
+        "POC",
+        "复现",
+        "版本"
+      ],
+      "phrases": [
+        "这个cve能打吗",
+        "复现编号"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-dir",
+      "name": "LEAF-net-dir",
+      "parent": "cha-netcast",
+      "kw": [
+        "目录枚举",
+        "ffuf",
+        "dirb",
+        "备份文件"
+      ],
+      "phrases": [
+        "扫目录",
+        "后台路径",
+        "备份文件"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-dns",
+      "name": "LEAF-net-dns",
+      "parent": "cha-netcast",
+      "kw": [
+        "DNS",
+        "解析",
+        "NS",
+        "MX",
+        "TXT",
+        "SPF"
+      ],
+      "phrases": [
+        "查dns",
+        "解析一下"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-fp",
+      "name": "LEAF-net-fp",
+      "parent": "cha-netcast",
+      "kw": [
+        "指纹",
+        "框架",
+        "Wappalyzer",
+        "中间件"
+      ],
+      "phrases": [
+        "这是什么栈",
+        "指纹打一下"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-port",
+      "name": "LEAF-net-port",
+      "parent": "cha-netcast",
+      "kw": [
+        "端口扫描",
+        "nmap",
+        "开放端口",
+        "服务"
+      ],
+      "phrases": [
+        "扫端口",
+        "哪些口开着"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-priv",
+      "name": "LEAF-net-priv",
+      "parent": "cha-netcast",
+      "kw": [
+        "越权",
+        "水平",
+        "垂直",
+        "IDOR"
+      ],
+      "phrases": [
+        "越权",
+        "换个id看看",
+        "水平权限"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-report",
+      "name": "LEAF-net-report",
+      "parent": "cha-netcast",
+      "kw": [
+        "渗透报告",
+        "证据",
+        "利用链"
+      ],
+      "phrases": [
+        "出个报告",
+        "把链写清楚"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-scan",
+      "name": "LEAF-net-scan",
+      "parent": "cha-netcast",
+      "kw": [
+        "漏洞扫描",
+        "nuclei",
+        "漏扫"
+      ],
+      "phrases": [
+        "漏扫一下",
+        "扫个洞"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-sqli",
+      "name": "LEAF-net-sqli",
+      "parent": "cha-netcast",
+      "kw": [
+        "SQL注入",
+        "SQLi",
+        "union",
+        "盲注",
+        "sqlmap"
+      ],
+      "phrases": [
+        "注进去",
+        "sql那一下",
+        "盲注"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-ssrf",
+      "name": "LEAF-net-ssrf",
+      "parent": "cha-netcast",
+      "kw": [
+        "SSRF",
+        "元数据",
+        "内网",
+        "302"
+      ],
+      "phrases": [
+        "打到内网",
+        "ssrf",
+        "打元数据"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-sub",
+      "name": "LEAF-net-sub",
+      "parent": "cha-netcast",
+      "kw": [
+        "子域名",
+        "爆破",
+        "crt.sh",
+        "证书"
+      ],
+      "phrases": [
+        "挖子域",
+        "还有哪些域"
+      ],
+      "first": ""
+    },
+    {
+      "id": "net-xss",
+      "name": "LEAF-net-xss",
+      "parent": "cha-netcast",
+      "kw": [
+        "XSS",
+        "反射",
+        "存储",
+        "DOM"
+      ],
+      "phrases": [
+        "弹个窗",
+        "xss一下",
+        "跨站"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-ac",
+      "name": "LEAF-ply-ac",
+      "parent": "cha-playfield",
+      "kw": [
+        "反作弊",
+        "EasyAntiCheat",
+        "BattlEye",
+        "检测点"
+      ],
+      "phrases": [
+        "过检测",
+        "防封",
+        "ace",
+        "be"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-aim",
+      "name": "LEAF-ply-aim",
+      "parent": "cha-playfield",
+      "kw": [
+        "自瞄",
+        "aimbot",
+        "压枪",
+        "锁定"
+      ],
+      "phrases": [
+        "锁头",
+        "自瞄",
+        "跟枪",
+        "锁人"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-cheat",
+      "name": "LEAF-ply-cheat",
+      "parent": "cha-playfield",
+      "kw": [
+        "外挂",
+        "cheat",
+        "辅助",
+        "挂"
+      ],
+      "phrases": [
+        "做个挂",
+        "辅助",
+        "开挂"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-esp",
+      "name": "LEAF-ply-esp",
+      "parent": "cha-playfield",
+      "kw": [
+        "ESP",
+        "方框",
+        "骨骼",
+        "物品描边"
+      ],
+      "phrases": [
+        "画个框",
+        "人物描边",
+        "esp"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-il2cpp",
+      "name": "LEAF-ply-il2cpp",
+      "parent": "cha-playfield",
+      "kw": [
+        "IL2CPP",
+        "libil2cpp",
+        "metadata"
+      ],
+      "phrases": [
+        "元数据 dump",
+        "libil2cpp"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-mech",
+      "name": "LEAF-ply-mech",
+      "parent": "cha-playfield",
+      "kw": [
+        "机制",
+        "冷却",
+        "伤害",
+        "移速",
+        "重力"
+      ],
+      "phrases": [
+        "改冷却",
+        "改伤害",
+        "改移速"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-offset",
+      "name": "LEAF-ply-offset",
+      "parent": "cha-playfield",
+      "kw": [
+        "偏移",
+        "offset",
+        "指针链",
+        "基址"
+      ],
+      "phrases": [
+        "找偏移",
+        "指针链",
+        "基址"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-overlay",
+      "name": "LEAF-ply-overlay",
+      "parent": "cha-playfield",
+      "kw": [
+        "Overlay",
+        "透明窗",
+        "D3D",
+        "EndScene"
+      ],
+      "phrases": [
+        "透明窗",
+        "叠一层hud",
+        "endscene"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-packet",
+      "name": "LEAF-ply-packet",
+      "parent": "cha-playfield",
+      "kw": [
+        "游戏封包",
+        "opcode",
+        "加密",
+        "重放"
+      ],
+      "phrases": [
+        "游戏包",
+        "封包",
+        "opcode"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-trainer",
+      "name": "LEAF-ply-trainer",
+      "parent": "cha-playfield",
+      "kw": [
+        "Trainer",
+        "修改器",
+        "无限弹药",
+        "金钱"
+      ],
+      "phrases": [
+        "修改器",
+        "一键加钱",
+        "锁血"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-unity",
+      "name": "LEAF-ply-unity",
+      "parent": "cha-playfield",
+      "kw": [
+        "Unity",
+        "il2cpp",
+        "Dump",
+        "全局表"
+      ],
+      "phrases": [
+        "unity那个",
+        "il2cpp dump"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-unreal",
+      "name": "LEAF-ply-unreal",
+      "parent": "cha-playfield",
+      "kw": [
+        "Unreal",
+        "GNames",
+        "GObjects",
+        "蓝图"
+      ],
+      "phrases": [
+        "虚幻",
+        "unreal",
+        "gobjects"
+      ],
+      "first": ""
+    },
+    {
+      "id": "ply-wall",
+      "name": "LEAF-ply-wall",
+      "parent": "cha-playfield",
+      "kw": [
+        "透视",
+        "wallhack",
+        "穿墙",
+        "看见"
+      ],
+      "phrases": [
+        "开图",
+        "透视",
+        "穿墙看见"
+      ],
+      "first": ""
+    }
+  ]
+}

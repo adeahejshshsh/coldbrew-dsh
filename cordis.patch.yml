@@ -1,0 +1,38 @@
+# coldbrew-dsh bundle patch
+#
+# 一个插件，三档强度。强度不在这里写死，由运行时配置决定：
+#
+#   1. 环境变量        COLDBREW_TIER=lite|mid|deep
+#   2. 配置文件        $DSH_HOME/coldbrew.json  { "tier": "mid" }
+#   3. 本文件的 config  tier: mid        ← 兜底默认
+#
+# 优先级：环境变量 > coldbrew.json > 这里。
+#
+# 为什么不把人格清理写进这个 YAML：
+#   YAML 是静态的，一个包只能写死一种强度。mid / deep 的「摘掉出厂人格」
+#   走的是 system-prompt/assemble 这个 waterfall，在运行时按 tier 决定，
+#   既不写宿主文件，也不占用 system-prompt 的 config 槽位——
+#   别的破甲插件想改 personaPrefix 随便改，本插件不抢。
+
+- insert:
+    - id: coldbrew-dsh
+      name: 'coldbrew-dsh'
+      config:
+        # lite  只追加 section，不动人格
+        # mid   追加 section + 摘掉出厂人格（默认）
+        # deep  mid + 直接改 DSH 安装目录里的默认提示词
+        tier: mid
+
+        # 常驻层注入开关
+        injectPrompt: true
+
+        # 首次启动把 86 条技能写进 $DSH_HOME/skills
+        # 只写自己 manifest 登记过的目录，用户自建同名目录不覆盖
+        autoInstallSkills: true
+
+        # deep 档启动时是否自动打宿主补丁。
+        # 默认关：改宿主是重操作，建议手动 /coldbrew apply。
+        autoPatchHost: false
+
+        # 强制开/关人格过滤。null = 按 tier 自动（lite 关，mid/deep 开）
+        filterFactoryPersona: null
