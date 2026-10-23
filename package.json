@@ -39,7 +39,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3641397194-wq/gpt6-Astra.git"
+    "url": "git+https://github.com/adeahejshshsh/coldbrew-dsh.git"
   },
   "dsh": {
     "id": "coldbrew-dsh",
@@ -56,5 +56,9 @@
   "engines": {
     "node": ">=18"
   },
-  "dshTarget": "0.2.1-rc.2"
+  "dshTarget": "0.2.1-rc.2",
+  "homepage": "https://github.com/adeahejshshsh/coldbrew-dsh#readme",
+  "bugs": {
+    "url": "https://github.com/adeahejshshsh/coldbrew-dsh/issues"
+  }
 }
