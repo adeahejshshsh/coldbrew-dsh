@@ -3,6 +3,7 @@ name: cld-api
 description: "LEAF-cld-api｜REST API 接口 未授权 BOLA｜API 安全"
 whenToUse: "用户提到 REST / API / 接口 / 未授权 / BOLA；口语：接口清单 / 未授权接口 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-api
 

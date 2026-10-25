@@ -35,6 +35,8 @@ cha-netcast      网络安全与渗透         cha-inkstage   内容创作与剧
 
 常驻层只有 3.5KB，其余按需加载。
 
+**只允许 agent 调用**：全部 86 条都带 `user-invocable: false`，人类不能用 `/cra-keygen` 直接触发，只能由模型按任务自己加载。
+
 ### 三、关键词路由
 
 `coldbrew_route` 工具：传一句人话，返回该走哪条技能。

@@ -3,6 +3,7 @@ name: lab-harvest
 description: "LEAF-lab-harvest｜采集 爬虫 签名 断点续爬｜数据采集"
 whenToUse: "用户提到 采集 / 爬虫 / 签名 / 断点续爬；口语：爬下来 / 采集 / 接着爬 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-harvest
 

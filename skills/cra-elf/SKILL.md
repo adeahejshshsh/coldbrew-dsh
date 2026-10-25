@@ -3,6 +3,7 @@ name: cra-elf
 description: "LEAF-cra-elf｜ELF so 动态链接 GOT PLT｜ELF 分析"
 whenToUse: "用户提到 ELF / so / 动态链接 / GOT / PLT；口语：elf拆 / linux可执行 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-elf
 

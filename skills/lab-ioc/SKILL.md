@@ -3,6 +3,7 @@ name: lab-ioc
 description: "LEAF-lab-ioc｜IOC 域名 IP 哈希 mutex｜IOC"
 whenToUse: "用户提到 IOC / 域名 / IP / 哈希 / mutex；口语：提ioc / 域名哈希列出来 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-ioc
 

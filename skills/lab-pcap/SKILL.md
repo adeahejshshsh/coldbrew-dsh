@@ -3,6 +3,7 @@ name: lab-pcap
 description: "LEAF-lab-pcap｜流量 pcap C2 DNS 隧道｜流量分析"
 whenToUse: "用户提到 流量 / pcap / C2 / DNS / 隧道；口语：看pcap / 抓流量 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-pcap
 

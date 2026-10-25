@@ -3,6 +3,7 @@ name: ply-trainer
 description: "LEAF-ply-trainer｜Trainer 修改器 无限弹药 金钱｜Trainer"
 whenToUse: "用户提到 Trainer / 修改器 / 无限弹药 / 金钱；口语：修改器 / 一键加钱 / 锁血 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-trainer
 

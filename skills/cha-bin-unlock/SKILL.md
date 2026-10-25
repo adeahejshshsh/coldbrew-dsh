@@ -2,6 +2,7 @@
 name: cha-bin-unlock
 description: "软件破解与逆向：破解 脱壳 注册机 授权 协议 DLL注入 内存修改 补丁 反调试 PE ELF APK 固件 .NET Java Native"
 whenToUse: "用户要求软件破解与逆向相关任务，或提到 破解 脱壳 注册机 授权 协议 DLL注入 内存修改 补丁 反调试 PE ELF APK 固件 .NET Java Native 中的任一词时"
+user-invocable: false
 ---
 # 软件破解与逆向
 

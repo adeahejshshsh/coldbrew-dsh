@@ -3,6 +3,7 @@ name: cra-antidebug
 description: "LEAF-cra-antidebug｜反调试 IsDebuggerPresent NtQuery 反附加｜反调试绕过"
 whenToUse: "用户提到 反调试 / IsDebuggerPresent / NtQuery / 反附加；口语：不让它察觉调试 / 过反调 / 藏调试器 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-antidebug
 

@@ -2,6 +2,7 @@
 name: cha-playfield
 description: "游戏安全与外挂研究：外挂 Trainer ESP 透视 自瞄 偏移 封包 Unity Unreal IL2CPP Overlay 反作弊"
 whenToUse: "用户要求游戏安全与外挂研究相关任务，或提到 外挂 Trainer ESP 透视 自瞄 偏移 封包 Unity Unreal IL2CPP Overlay 反作弊 中的任一词时"
+user-invocable: false
 ---
 # 游戏安全与外挂研究
 

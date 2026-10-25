@@ -3,6 +3,7 @@ name: ply-unity
 description: "LEAF-ply-unity｜Unity il2cpp Dump 全局表｜Unity 逆向"
 whenToUse: "用户提到 Unity / il2cpp / Dump / 全局表；口语：unity那个 / il2cpp dump 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-unity
 

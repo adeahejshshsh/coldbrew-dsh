@@ -3,6 +3,7 @@ name: lab-log
 description: "LEAF-lab-log｜日志溯源 登录失败 EVTX｜日志溯源"
 whenToUse: "用户提到 日志溯源 / 登录失败 / EVTX；口语：翻日志 / 谁登进来了 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-log
 

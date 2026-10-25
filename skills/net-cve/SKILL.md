@@ -3,6 +3,7 @@ name: net-cve
 description: "LEAF-net-cve｜CVE POC 复现 版本｜CVE 验证"
 whenToUse: "用户提到 CVE / POC / 复现 / 版本；口语：这个cve能打吗 / 复现编号 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-cve
 

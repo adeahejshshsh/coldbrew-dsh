@@ -3,6 +3,7 @@ name: cld-gql
 description: "LEAF-cld-gql｜GraphQL introspection 过度取数｜GraphQL"
 whenToUse: "用户提到 GraphQL / introspection / 过度取数；口语：graphql / 过度取数 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-gql
 

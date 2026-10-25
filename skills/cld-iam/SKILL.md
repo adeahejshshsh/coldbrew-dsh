@@ -3,6 +3,7 @@ name: cld-iam
 description: "LEAF-cld-iam｜云权限 IAM 元数据 STS｜云权限"
 whenToUse: "用户提到 云权限 / IAM / 元数据 / STS；口语：云权限 / iam / 元数据密钥 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-iam
 

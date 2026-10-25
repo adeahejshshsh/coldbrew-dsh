@@ -3,6 +3,7 @@ name: cld-k8s
 description: "LEAF-cld-k8s｜K8s RBAC secret 仪表盘｜Kubernetes"
 whenToUse: "用户提到 K8s / RBAC / secret / 仪表盘；口语：k8s / 读secret / 仪表盘 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-k8s
 

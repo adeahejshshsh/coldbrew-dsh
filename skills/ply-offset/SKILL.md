@@ -3,6 +3,7 @@ name: ply-offset
 description: "LEAF-ply-offset｜偏移 offset 指针链 基址｜内存与偏移"
 whenToUse: "用户提到 偏移 / offset / 指针链 / 基址；口语：找偏移 / 指针链 / 基址 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-offset
 

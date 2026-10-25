@@ -3,6 +3,7 @@ name: ink-voice
 description: "LEAF-ink-voice｜文风 仿写 语气｜文风定制"
 whenToUse: "用户提到 文风 / 仿写 / 语气；口语：仿这个语气 / 换成那种文风 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-voice
 

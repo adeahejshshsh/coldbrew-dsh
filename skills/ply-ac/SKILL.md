@@ -3,6 +3,7 @@ name: ply-ac
 description: "LEAF-ply-ac｜反作弊 EasyAntiCheat BattlEye 检测点｜反作弊分析"
 whenToUse: "用户提到 反作弊 / EasyAntiCheat / BattlEye / 检测点；口语：过检测 / 防封 / ace / be 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-ac
 

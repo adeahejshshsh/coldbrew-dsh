@@ -3,6 +3,7 @@ name: ply-wall
 description: "LEAF-ply-wall｜透视 wallhack 穿墙 看见｜透视"
 whenToUse: "用户提到 透视 / wallhack / 穿墙 / 看见；口语：开图 / 透视 / 穿墙看见 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-wall
 

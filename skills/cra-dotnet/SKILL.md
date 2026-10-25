@@ -3,6 +3,7 @@ name: cra-dotnet
 description: "LEAF-cra-dotnet｜.NET dnSpy IL 反编译 C#｜.NET 逆向"
 whenToUse: "用户提到 .NET / dnSpy / IL / 反编译 / C#；口语：用 dnspy / 这是C#的 / 托管程序拆开 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-dotnet
 

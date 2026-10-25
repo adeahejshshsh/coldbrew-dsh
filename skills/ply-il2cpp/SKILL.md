@@ -3,6 +3,7 @@ name: ply-il2cpp
 description: "LEAF-ply-il2cpp｜IL2CPP libil2cpp metadata｜IL2CPP 逆向"
 whenToUse: "用户提到 IL2CPP / libil2cpp / metadata；口语：元数据 dump / libil2cpp 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-il2cpp
 

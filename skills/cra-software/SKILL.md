@@ -3,6 +3,7 @@ name: cra-software
 description: "LEAF-cra-software｜破解 crackme 去掉限制 去验证 unlock｜软件破解"
 whenToUse: "用户提到 破解 / crackme / 去掉限制 / 去验证 / unlock；口语：解锁 / 去掉限制 / 解开 / 让它过 / 免费用 / 破解这个 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-software
 

@@ -3,6 +3,7 @@ name: ply-cheat
 description: "LEAF-ply-cheat｜外挂 cheat 辅助 挂｜游戏外挂"
 whenToUse: "用户提到 外挂 / cheat / 辅助 / 挂；口语：做个挂 / 辅助 / 开挂 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-cheat
 

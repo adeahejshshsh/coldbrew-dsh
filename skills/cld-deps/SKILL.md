@@ -3,6 +3,7 @@ name: cld-deps
 description: "LEAF-cld-deps｜依赖漏洞 CVE 锁文件 sbom｜依赖漏洞"
 whenToUse: "用户提到 依赖漏洞 / CVE / 锁文件 / sbom；口语：依赖有洞吗 / 锁文件对一下 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-deps
 

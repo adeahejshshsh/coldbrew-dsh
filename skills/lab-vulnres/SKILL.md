@@ -3,6 +3,7 @@ name: lab-vulnres
 description: "LEAF-lab-vulnres｜漏洞研究 补丁对比 根因｜漏洞研究"
 whenToUse: "用户提到 漏洞研究 / 补丁对比 / 根因；口语：这洞怎么来的 / 补丁对比 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-vulnres
 

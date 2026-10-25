@@ -2,6 +2,7 @@
 name: cha-netcast
 description: "网络安全与渗透测试：资产 端口 子域 DNS 目录 指纹 漏洞 SQLi XSS SSRF 越权 爆破 凭证 CVE 渗透"
 whenToUse: "用户要求网络安全与渗透测试相关任务，或提到 资产 端口 子域 DNS 目录 指纹 漏洞 SQLi XSS SSRF 越权 爆破 凭证 CVE 渗透 中的任一词时"
+user-invocable: false
 ---
 # 网络安全与渗透测试
 

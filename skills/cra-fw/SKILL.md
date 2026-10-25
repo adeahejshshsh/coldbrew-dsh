@@ -3,6 +3,7 @@ name: cra-fw
 description: "LEAF-cra-fw｜固件 firmware binrootfs squashfs｜固件分析"
 whenToUse: "用户提到 固件 / firmware / binrootfs / squashfs；口语：固件抽一层 / 路由器包 / dump pflash 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-fw
 

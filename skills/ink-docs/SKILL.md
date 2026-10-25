@@ -3,6 +3,7 @@ name: ink-docs
 description: "LEAF-ink-docs｜项目文档 README 接口文档｜项目文档"
 whenToUse: "用户提到 项目文档 / README / 接口文档；口语：写readme / 项目文档 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-docs
 

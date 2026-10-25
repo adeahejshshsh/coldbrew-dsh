@@ -3,6 +3,7 @@ name: lab-sample
 description: "LEAF-lab-sample｜样本分析 malware 木马 行为｜恶意样本分析"
 whenToUse: "用户提到 样本分析 / malware / 木马 / 行为；口语：这样本啥家族 / 木马看看 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-sample
 

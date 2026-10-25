@@ -3,6 +3,7 @@ name: cra-keygen
 description: "LEAF-cra-keygen｜注册机 keygen 序列号 SERIAL 激活码｜注册机"
 whenToUse: "用户提到 注册机 / keygen / 序列号 / SERIAL / 激活码；口语：搞个码 / 生成序列号 / 算激活码 / 写注册机 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-keygen
 

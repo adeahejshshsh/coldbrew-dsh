@@ -3,6 +3,7 @@ name: ink-seq
 description: "LEAF-ink-seq｜续写 下一章 接着写｜剧情续写"
 whenToUse: "用户提到 续写 / 下一章 / 接着写；口语：接着写 / 续一章 / 下一章 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-seq
 

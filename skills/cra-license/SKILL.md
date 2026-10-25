@@ -3,6 +3,7 @@ name: cra-license
 description: "LEAF-cra-license｜授权 license 试用 过期 在线验证｜授权逻辑"
 whenToUse: "用户提到 授权 / license / 试用 / 过期 / 在线验证；口语：试用转正 / 过期解开 / 授权怎么判 / 在线验证绕 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-license
 

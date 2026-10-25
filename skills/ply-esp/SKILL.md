@@ -3,6 +3,7 @@ name: ply-esp
 description: "LEAF-ply-esp｜ESP 方框 骨骼 物品描边｜ESP"
 whenToUse: "用户提到 ESP / 方框 / 骨骼 / 物品描边；口语：画个框 / 人物描边 / esp 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-esp
 

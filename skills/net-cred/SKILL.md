@@ -3,6 +3,7 @@ name: net-cred
 description: "LEAF-net-cred｜凭证 默认密码 弱口令 泄露｜凭证测试"
 whenToUse: "用户提到 凭证 / 默认密码 / 弱口令 / 泄露；口语：默认密码 / 凭证还能用吗 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-cred
 

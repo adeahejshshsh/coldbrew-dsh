@@ -2,6 +2,7 @@
 name: cha-inkstage
 description: "内容创作与剧情定制：文章 文档 对白 角色 世界观 悬疑 黑暗 成人 续写 文风"
 whenToUse: "用户要求内容创作与剧情定制相关任务，或提到 文章 文档 对白 角色 世界观 悬疑 黑暗 成人 续写 文风 中的任一词时"
+user-invocable: false
 ---
 # 内容创作与剧情定制
 

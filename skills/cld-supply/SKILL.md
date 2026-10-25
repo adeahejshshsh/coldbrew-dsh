@@ -3,6 +3,7 @@ name: cld-supply
 description: "LEAF-cld-supply｜供应链 CI 投毒 构建脚本｜供应链安全"
 whenToUse: "用户提到 供应链 / CI / 投毒 / 构建脚本；口语：供应链 / ci被投了没 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-supply
 

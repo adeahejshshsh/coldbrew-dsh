@@ -3,6 +3,7 @@ name: cra-dll
 description: "LEAF-cra-dll｜DLL 注入 injector LoadLibrary 远程线程｜DLL 注入"
 whenToUse: "用户提到 DLL / 注入 / injector / LoadLibrary / 远程线程；口语：注进 dll / 把dll喂进去 / 远程线程打进去 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-dll
 

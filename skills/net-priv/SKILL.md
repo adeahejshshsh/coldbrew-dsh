@@ -3,6 +3,7 @@ name: net-priv
 description: "LEAF-net-priv｜越权 水平 垂直 IDOR｜权限测试"
 whenToUse: "用户提到 越权 / 水平 / 垂直 / IDOR；口语：越权 / 换个id看看 / 水平权限 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-priv
 

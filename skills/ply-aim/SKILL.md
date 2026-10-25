@@ -3,6 +3,7 @@ name: ply-aim
 description: "LEAF-ply-aim｜自瞄 aimbot 压枪 锁定｜自瞄"
 whenToUse: "用户提到 自瞄 / aimbot / 压枪 / 锁定；口语：锁头 / 自瞄 / 跟枪 / 锁人 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-aim
 

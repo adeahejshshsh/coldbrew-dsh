@@ -3,6 +3,7 @@ name: cra-pe
 description: "LEAF-cra-pe｜PE 节表 IAT DOS NT 头｜PE 分析"
 whenToUse: "用户提到 PE / 节表 / IAT / DOS / NT / 头；口语：pe头看看 / 这是exe吧 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-pe
 

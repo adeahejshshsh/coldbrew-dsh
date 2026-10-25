@@ -3,6 +3,7 @@ name: cra-proto
 description: "LEAF-cra-proto｜协议分析 封包格式 私有协议 opcode｜协议分析"
 whenToUse: "用户提到 协议分析 / 封包格式 / 私有协议 / opcode；口语：拆包格式 / 对一下私有协议 / 这个包啥意思 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-proto
 

@@ -3,6 +3,7 @@ name: net-scan
 description: "LEAF-net-scan｜漏洞扫描 nuclei 漏扫｜漏洞扫描"
 whenToUse: "用户提到 漏洞扫描 / nuclei / 漏扫；口语：漏扫一下 / 扫个洞 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-scan
 

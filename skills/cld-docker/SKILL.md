@@ -3,6 +3,7 @@ name: cld-docker
 description: "LEAF-cld-docker｜Docker sock 逃逸 镜像｜Docker"
 whenToUse: "用户提到 Docker / sock / 逃逸 / 镜像；口语：docker逃 / sock挂进去 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-docker
 

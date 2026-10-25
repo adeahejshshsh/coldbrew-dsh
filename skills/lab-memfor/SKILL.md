@@ -3,6 +3,7 @@ name: lab-memfor
 description: "LEAF-lab-memfor｜内存取证 volatility 转储｜内存取证"
 whenToUse: "用户提到 内存取证 / volatility / 转储；口语：内存转储 / volatility 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-memfor
 

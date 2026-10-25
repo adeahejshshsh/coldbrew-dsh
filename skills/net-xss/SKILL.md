@@ -3,6 +3,7 @@ name: net-xss
 description: "LEAF-net-xss｜XSS 反射 存储 DOM｜XSS"
 whenToUse: "用户提到 XSS / 反射 / 存储 / DOM；口语：弹个窗 / xss一下 / 跨站 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-xss
 

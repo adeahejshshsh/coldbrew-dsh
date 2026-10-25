@@ -3,6 +3,7 @@ name: lab-batch
 description: "LEAF-lab-batch｜批量扫描 目录 并发｜批量扫描"
 whenToUse: "用户提到 批量扫描 / 目录 / 并发；口语：批量扫 / 目录一起扫 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-batch
 

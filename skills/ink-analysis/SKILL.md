@@ -3,6 +3,7 @@ name: ink-analysis
 description: "LEAF-ink-analysis｜分析报告 研判 结论｜分析报告"
 whenToUse: "用户提到 分析报告 / 研判 / 结论；口语：出分析 / 研判 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-analysis
 

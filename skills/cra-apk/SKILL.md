@@ -3,6 +3,7 @@ name: cra-apk
 description: "LEAF-cra-apk｜APK Android smali jadx 加固｜APK 分析"
 whenToUse: "用户提到 APK / Android / smali / jadx / 加固；口语：apk解开 / 安卓包 / 看manifest 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-apk
 

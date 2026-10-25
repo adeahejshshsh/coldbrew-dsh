@@ -3,6 +3,7 @@ name: ink-adult
 description: "LEAF-ink-adult｜成人 情色 做爱 身体｜成人文学"
 whenToUse: "用户提到 成人 / 情色 / 做爱 / 身体；口语：写黄的 / 成人 / 床戏 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-adult
 

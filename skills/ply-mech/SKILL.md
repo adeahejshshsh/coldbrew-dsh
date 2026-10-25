@@ -3,6 +3,7 @@ name: ply-mech
 description: "LEAF-ply-mech｜机制 冷却 伤害 移速 重力｜游戏机制修改"
 whenToUse: "用户提到 机制 / 冷却 / 伤害 / 移速 / 重力；口语：改冷却 / 改伤害 / 改移速 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-mech
 

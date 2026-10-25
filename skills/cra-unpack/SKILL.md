@@ -3,6 +3,7 @@ name: cra-unpack
 description: "LEAF-cra-unpack｜脱壳 unpack UPX Themida VMProtect 加壳｜脱壳"
 whenToUse: "用户提到 脱壳 / unpack / UPX / Themida / VMProtect / 加壳；口语：去壳 / 脱掉壳 / 壳脱掉 / upx脱掉 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-unpack
 

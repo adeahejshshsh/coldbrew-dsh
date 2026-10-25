@@ -3,6 +3,7 @@ name: cld-fuzz
 description: "LEAF-cld-fuzz｜模糊测试 fuzz corpus AFL｜模糊测试"
 whenToUse: "用户提到 模糊测试 / fuzz / corpus / AFL；口语：fuzz一下 / 乱砸参数 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-fuzz
 

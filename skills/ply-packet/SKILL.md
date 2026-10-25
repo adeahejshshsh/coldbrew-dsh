@@ -3,6 +3,7 @@ name: ply-packet
 description: "LEAF-ply-packet｜游戏封包 opcode 加密 重放｜封包协议"
 whenToUse: "用户提到 游戏封包 / opcode / 加密 / 重放；口语：游戏包 / 封包 / opcode 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-packet
 

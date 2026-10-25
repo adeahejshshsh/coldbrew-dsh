@@ -3,6 +3,7 @@ name: net-sub
 description: "LEAF-net-sub｜子域名 爆破 crt.sh 证书｜子域名发现"
 whenToUse: "用户提到 子域名 / 爆破 / crt.sh / 证书；口语：挖子域 / 还有哪些域 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-sub
 

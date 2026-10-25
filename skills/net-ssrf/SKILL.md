@@ -3,6 +3,7 @@ name: net-ssrf
 description: "LEAF-net-ssrf｜SSRF 元数据 内网 302｜SSRF"
 whenToUse: "用户提到 SSRF / 元数据 / 内网 / 302；口语：打到内网 / ssrf / 打元数据 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-ssrf
 

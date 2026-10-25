@@ -3,6 +3,7 @@ name: net-brute
 description: "LEAF-net-brute｜爆破 撞库 hydra 登录口｜登录爆破"
 whenToUse: "用户提到 爆破 / 撞库 / hydra / 登录口；口语：爆登录 / 撞库 / 试试弱口令 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-brute
 

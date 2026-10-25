@@ -3,6 +3,7 @@ name: cld-jwt
 description: "LEAF-cld-jwt｜JWT none alg kid 伪造｜JWT"
 whenToUse: "用户提到 JWT / none / alg / kid / 伪造；口语：改jwt / 伪造token / none算法 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-jwt
 

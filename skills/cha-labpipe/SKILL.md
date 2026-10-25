@@ -2,6 +2,7 @@
 name: cha-labpipe
 description: "样本分析取证与自动化：样本 YARA IOC 内存取证 流量 日志 溯源 批量扫描 采集 自动化 报告"
 whenToUse: "用户要求样本分析取证与自动化相关任务，或提到 样本 YARA IOC 内存取证 流量 日志 溯源 批量扫描 采集 自动化 报告 中的任一词时"
+user-invocable: false
 ---
 # 样本分析取证与自动化
 

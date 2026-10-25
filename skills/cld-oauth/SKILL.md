@@ -3,6 +3,7 @@ name: cld-oauth
 description: "LEAF-cld-oauth｜OAuth redirect_uri 授权码 Implicit｜OAuth"
 whenToUse: "用户提到 OAuth / redirect_uri / 授权码 / Implicit；口语：oauth跳转 / 偷code 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-oauth
 

@@ -3,6 +3,7 @@ name: cra-patch
 description: "LEAF-cra-patch｜补丁 patch 改字节 JNZ JMP NOP｜补丁制作"
 whenToUse: "用户提到 补丁 / patch / 改字节 / JNZ / JMP / NOP；口语：改几个字节 / nop掉 / 补一刀 / 打补丁 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-patch
 

@@ -3,6 +3,7 @@ name: ply-unreal
 description: "LEAF-ply-unreal｜Unreal GNames GObjects 蓝图｜Unreal 逆向"
 whenToUse: "用户提到 Unreal / GNames / GObjects / 蓝图；口语：虚幻 / unreal / gobjects 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-unreal
 

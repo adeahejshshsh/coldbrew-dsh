@@ -3,6 +3,7 @@ name: lab-auto
 description: "LEAF-lab-auto｜自动化 流水线 编排｜自动化工具"
 whenToUse: "用户提到 自动化 / 流水线 / 编排；口语：自动跑 / 写成流水线 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-auto
 

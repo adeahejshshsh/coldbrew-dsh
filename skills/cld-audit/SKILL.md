@@ -3,6 +3,7 @@ name: cld-audit
 description: "LEAF-cld-audit｜源码审计 sink 污染 代码审查｜源码审计"
 whenToUse: "用户提到 源码审计 / sink / 污染 / 代码审查；口语：审计源码 / 找sink 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-audit
 

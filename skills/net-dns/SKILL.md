@@ -3,6 +3,7 @@ name: net-dns
 description: "LEAF-net-dns｜DNS 解析 NS MX TXT SPF｜DNS 查询"
 whenToUse: "用户提到 DNS / 解析 / NS / MX / TXT / SPF；口语：查dns / 解析一下 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-dns
 

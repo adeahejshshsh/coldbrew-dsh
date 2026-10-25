@@ -3,6 +3,7 @@ name: ink-world
 description: "LEAF-ink-world｜世界观 设定集 规则｜世界观"
 whenToUse: "用户提到 世界观 / 设定集 / 规则；口语：把世界搭起来 / 设定集 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-world
 

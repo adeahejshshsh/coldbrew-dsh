@@ -3,6 +3,7 @@ name: net-fp
 description: "LEAF-net-fp｜指纹 框架 Wappalyzer 中间件｜技术栈指纹"
 whenToUse: "用户提到 指纹 / 框架 / Wappalyzer / 中间件；口语：这是什么栈 / 指纹打一下 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-fp
 

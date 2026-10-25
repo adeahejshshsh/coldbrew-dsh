@@ -3,6 +3,7 @@ name: cra-mem
 description: "LEAF-cra-mem｜内存修改 WriteProcessMemory 改数值 金币｜内存修改"
 whenToUse: "用户提到 内存修改 / WriteProcessMemory / 改数值 / 金币；口语：改内存 / 改金币 / 改血 / 改数值 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-mem
 

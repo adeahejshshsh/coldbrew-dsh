@@ -3,6 +3,7 @@ name: ink-tech
 description: "LEAF-ink-tech｜技术文章 教程 原理｜技术文章"
 whenToUse: "用户提到 技术文章 / 教程 / 原理；口语：写篇技术文 / 讲原理 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-tech
 

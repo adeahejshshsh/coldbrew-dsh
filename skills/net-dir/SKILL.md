@@ -3,6 +3,7 @@ name: net-dir
 description: "LEAF-net-dir｜目录枚举 ffuf dirb 备份文件｜目录枚举"
 whenToUse: "用户提到 目录枚举 / ffuf / dirb / 备份文件；口语：扫目录 / 后台路径 / 备份文件 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-dir
 

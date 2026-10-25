@@ -2,6 +2,7 @@
 name: cha-apicloud
 description: "接口云端与代码安全：API GraphQL WebSocket JWT OAuth Docker Kubernetes 云权限 源码审计 依赖 供应链 fuzz 业务逻辑"
 whenToUse: "用户要求接口云端与代码安全相关任务，或提到 API GraphQL WebSocket JWT OAuth Docker Kubernetes 云权限 源码审计 依赖 供应链 fuzz 业务逻辑 中的任一词时"
+user-invocable: false
 ---
 # 接口云端与代码安全
 

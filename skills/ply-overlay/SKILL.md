@@ -3,6 +3,7 @@ name: ply-overlay
 description: "LEAF-ply-overlay｜Overlay 透明窗 D3D EndScene｜Overlay"
 whenToUse: "用户提到 Overlay / 透明窗 / D3D / EndScene；口语：透明窗 / 叠一层hud / endscene 时"
 parent: cha-playfield
+user-invocable: false
 ---
 # LEAF-ply-overlay
 

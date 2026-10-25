@@ -3,6 +3,7 @@ name: cld-ws
 description: "LEAF-cld-ws｜WebSocket 握手 订阅 推送｜WebSocket"
 whenToUse: "用户提到 WebSocket / 握手 / 订阅 / 推送；口语：websocket / 推送越权 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-ws
 

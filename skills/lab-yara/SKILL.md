@@ -3,6 +3,7 @@ name: lab-yara
 description: "LEAF-lab-yara｜YARA 规则 匹配｜YARA"
 whenToUse: "用户提到 YARA / 规则 / 匹配；口语：写条yara / 匹配规则 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-yara
 

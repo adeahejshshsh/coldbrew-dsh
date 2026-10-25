@@ -3,6 +3,7 @@ name: cld-biz
 description: "LEAF-cld-biz｜业务逻辑 支付 状态机 竞态｜业务逻辑"
 whenToUse: "用户提到 业务逻辑 / 支付 / 状态机 / 竞态；口语：支付逻辑 / 改金额 / 并发单 时"
 parent: cha-apicloud
+user-invocable: false
 ---
 # LEAF-cld-biz
 

@@ -3,6 +3,7 @@ name: ink-thriller
 description: "LEAF-ink-thriller｜悬疑 惊悚 恐怖｜悬疑惊悚"
 whenToUse: "用户提到 悬疑 / 惊悚 / 恐怖；口语：写悬疑 / 写惊悚 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-thriller
 

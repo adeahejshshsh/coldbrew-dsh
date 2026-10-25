@@ -3,6 +3,7 @@ name: net-report
 description: "LEAF-net-report｜渗透报告 证据 利用链｜渗透报告"
 whenToUse: "用户提到 渗透报告 / 证据 / 利用链；口语：出个报告 / 把链写清楚 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-report
 

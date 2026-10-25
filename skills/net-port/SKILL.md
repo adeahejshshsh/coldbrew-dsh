@@ -3,6 +3,7 @@ name: net-port
 description: "LEAF-net-port｜端口扫描 nmap 开放端口 服务｜端口扫描"
 whenToUse: "用户提到 端口扫描 / nmap / 开放端口 / 服务；口语：扫端口 / 哪些口开着 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-port
 

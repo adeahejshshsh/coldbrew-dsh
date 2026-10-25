@@ -3,6 +3,7 @@ name: ink-dark
 description: "LEAF-ink-dark｜黑暗 暴力 虐 残酷｜黑暗题材"
 whenToUse: "用户提到 黑暗 / 暴力 / 虐 / 残酷；口语：写黑暗的 / 写狠的 时"
 parent: cha-inkstage
+user-invocable: false
 ---
 # LEAF-ink-dark
 

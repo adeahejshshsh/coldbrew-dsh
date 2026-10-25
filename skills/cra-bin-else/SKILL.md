@@ -3,6 +3,7 @@ name: cra-bin-else
 description: "LEAF-cra-bin-else｜二进制 binary 样本 未知格式｜其它二进制"
 whenToUse: "用户提到 二进制 / binary / 样本 / 未知格式；口语：这是啥二进制 / 未知文件拆开 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-bin-else
 

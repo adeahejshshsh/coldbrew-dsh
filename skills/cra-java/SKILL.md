@@ -3,6 +3,7 @@ name: cra-java
 description: "LEAF-cra-java｜Java JAR jadx 字节码 class｜Java 逆向"
 whenToUse: "用户提到 Java / JAR / jadx / 字节码 / class；口语：jar拆开 / class反编译 / java逆向 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-java
 

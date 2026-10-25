@@ -3,6 +3,7 @@ name: cra-native
 description: "LEAF-cra-native｜Native so dll syscall 反汇编｜Native 逆向"
 whenToUse: "用户提到 Native / so / dll / syscall / 反汇编；口语：so拆开 / native层 / JNI那一层 时"
 parent: cha-bin-unlock
+user-invocable: false
 ---
 # LEAF-cra-native
 

@@ -3,6 +3,7 @@ name: net-asset
 description: "LEAF-net-asset｜资产发现 测绘 暴露面｜资产发现"
 whenToUse: "用户提到 资产发现 / 测绘 / 暴露面；口语：有哪些资产 / 先摸一圈 时"
 parent: cha-netcast
+user-invocable: false
 ---
 # LEAF-net-asset
 

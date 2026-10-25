@@ -3,6 +3,7 @@ name: lab-report
 description: "LEAF-lab-report｜报告生成 取证报告 汇总｜报告生成"
 whenToUse: "用户提到 报告生成 / 取证报告 / 汇总；口语：取证报告 / 汇总 时"
 parent: cha-labpipe
+user-invocable: false
 ---
 # LEAF-lab-report
 
